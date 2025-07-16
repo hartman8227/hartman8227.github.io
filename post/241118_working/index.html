@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="For the month of October 2024, the Self Hosted gang have been trying to go the month without using Google&rsquo;s search engine. I&rsquo;ve been busy with other things and hadn&rsquo;t taken part, but in their most recent show, Alex and Chris were talking very highly of two self hosted services they had been making use of during the month.
+The first one, SearXNG is a self hosted meta search engine. In stupid speech (in other words something I can understand), it takes you search query and farms it out to multiple other search engines. It then does &ldquo;something&rdquo; and presents what is more likely (hopefully) what you were actually looking for.
+" />
+<meta name="keywords" content=", Tag 1, Tag 2, Tag 3, Tag 4" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="http://localhost:1313/post/241118_working/" />
+
+
+    <title>
+        
+            A Better Search Engine? :: Paul Hartman 
+        
+    </title>
+
+
+
+
+
+  <link rel="stylesheet" href="/main.min.244183cde1a38e0b08f82c11791181288f9aac1cc9618cd6f4e9e7710c5768ba.css" integrity="sha256-JEGDzeGjjgsI&#43;CwReRGBKI&#43;arBzJYYzW9OnncQxXaLo=" crossorigin="anonymous">
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+
+  <meta itemprop="name" content="A Better Search Engine?">
+  <meta itemprop="description" content="For the month of October 2024, the Self Hosted gang have been trying to go the month without using Google’s search engine. I’ve been busy with other things and hadn’t taken part, but in their most recent show, Alex and Chris were talking very highly of two self hosted services they had been making use of during the month.
+The first one, SearXNG is a self hosted meta search engine. In stupid speech (in other words something I can understand), it takes you search query and farms it out to multiple other search engines. It then does “something” and presents what is more likely (hopefully) what you were actually looking for.">
+  <meta itemprop="datePublished" content="2024-11-17T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-11-17T00:00:00+00:00">
+  <meta itemprop="wordCount" content="320">
+  <meta itemprop="keywords" content="Tag 1,Tag 2,Tag 3,Tag 4">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="A Better Search Engine?">
+  <meta name="twitter:description" content="For the month of October 2024, the Self Hosted gang have been trying to go the month without using Google’s search engine. I’ve been busy with other things and hadn’t taken part, but in their most recent show, Alex and Chris were talking very highly of two self hosted services they had been making use of during the month.
+The first one, SearXNG is a self hosted meta search engine. In stupid speech (in other words something I can understand), it takes you search query and farms it out to multiple other search engines. It then does “something” and presents what is more likely (hopefully) what you were actually looking for.">
+
+
+
+    <meta property="og:url" content="http://localhost:1313/post/241118_working/">
+  <meta property="og:site_name" content="Paul Hartman">
+  <meta property="og:title" content="A Better Search Engine?">
+  <meta property="og:description" content="For the month of October 2024, the Self Hosted gang have been trying to go the month without using Google’s search engine. I’ve been busy with other things and hadn’t taken part, but in their most recent show, Alex and Chris were talking very highly of two self hosted services they had been making use of during the month.
+The first one, SearXNG is a self hosted meta search engine. In stupid speech (in other words something I can understand), it takes you search query and farms it out to multiple other search engines. It then does “something” and presents what is more likely (hopefully) what you were actually looking for.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2024-11-17T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-11-17T00:00:00+00:00">
+    <meta property="article:tag" content="Tag 1">
+    <meta property="article:tag" content="Tag 2">
+    <meta property="article:tag" content="Tag 3">
+    <meta property="article:tag" content="Tag 4">
+
+
+
+
+
+
+    <meta property="article:published_time" content="2024-11-17 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text ">
+                hello</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/post/">Blog</a></li><li><a href="/tags/">Tags</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="http://localhost:1313/post/241118_working/">A Better Search Engine?</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p>For the month of October 2024, the <a href="https://selfthosted.show">Self Hosted</a> gang have been trying to go the month without using Google&rsquo;s search engine. I&rsquo;ve been busy with other things and hadn&rsquo;t taken part, but in their <a href="https://selfhosted.show/136">most recent</a> show, Alex and Chris were talking very highly of two self hosted services they had been making use of during the month.</p>
+<p>The first one, <a href="https://github.com/searxng/searxng">SearXNG</a> is a self hosted meta search engine. In stupid speech (in other words something <em><strong>I</strong></em> can understand), it takes you search query and farms it out to multiple other search engines. It then does &ldquo;something&rdquo; and presents what is more likely (hopefully) what you were actually looking for.</p>
+<p>I had played with this project a couple of years ago and found it wasn&rsquo;t of much use, however Chris and Alex convinced me to give it another go, and there have been some significant improvements over the years, most notably the ability to search the Fedi. That&rsquo;s useful. As was the case the last time, the most difficult part of setting it up was getting my browsers to use it as their default search engine. At least it was until I figured out that I could add it as a search engine by going to the page, right clicking the URL and selecting the option to add it as a search engine. That&rsquo;s new. Firefox on mobile was even easier. Safari, not so much. Still working on that one. It does look like there is an extention to allow new search providers though.</p>
+<p>The second service, <a href="https://github.com/ItzCrazyKns/Perplexica">Perplexica</a>, I haven&rsquo;t yet tried, but seems to be an LLM frontend to SearXNG. From the looks of it you can give it a question, it will start a search and summerize what it has found citing sources. But it is not an LLM itself, instead it hooks into whatever LLM backend you want and uses that to do the actual processing.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="http://localhost:1313/tags/tag-1/">Tag 1</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/tag-2/">Tag 2</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/tag-3/">Tag 3</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/tag-4/">Tag 4</a></span>
+        
+    </p>
+
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.e89fda0f29b95d33f6f4224dd9e5cf69d84aff3818be2b0d73e731689cc374261b016d17d46f8381962fb4a1577ba3017b1f23509d894f6e66431f988c00889e.js" integrity="sha512-6J/aDym5XTP29CJN2eXPadhK/zgYvisNc&#43;cxaJzDdCYbAW0X1G&#43;DgZYvtKFXe6MBex8jUJ2JT25mQx&#43;YjACIng=="></script>
+
+
+
+
+    </body>
+</html>
