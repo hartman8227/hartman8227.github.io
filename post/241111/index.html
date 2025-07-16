@@ -150,7 +150,7 @@ First thing I needed to do was figure out how to run the LLM and a quick search 
             <div class="post-content">
                 <p>So Nextcloud got the ability awhile back to make use of LLMs for various things, like speech to text, text summerization and image generation. Sounded like a handy addon, and it turns out I had the hardware needed to self host it, kinda. Turns out there are some limitations, but we&rsquo;ll get to that.</p>
 <p>First thing I needed to do was figure out how to run the LLM and a quick search turned up a couple of different options. The most obvious one for me to try was Ollama as it is in the Nix repos. Installing it was pretty simple, just add the following to the configuration.nix.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-configuration.nix" data-lang="configuration.nix"><span style="display:flex;"><span>  services <span style="color:#960050;background-color:#1e0010">=</span> {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-configuration.nix" data-lang="configuration.nix"><span style="display:flex;"><span>  services <span style="color:#f92672">=</span> {
 </span></span><span style="display:flex;"><span>    ollama <span style="color:#f92672">=</span> {
 </span></span><span style="display:flex;"><span>      enable <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
 </span></span><span style="display:flex;"><span>      acceleration <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;cuda&#34;</span>;
