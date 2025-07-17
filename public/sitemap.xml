@@ -2,11 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://astaluk.com/tags/git/</loc>
+    <lastmod>2025-07-16T22:31:20-05:00</lastmod>
+  </url><url>
+    <loc>https://astaluk.com/tags/github-pages/</loc>
+    <lastmod>2025-07-16T22:31:20-05:00</lastmod>
+  </url><url>
+    <loc>https://astaluk.com/post/20250716-new-workflow/</loc>
+    <lastmod>2025-07-16T22:31:20-05:00</lastmod>
+  </url><url>
     <loc>https://astaluk.com/</loc>
-    <lastmod>2025-07-16T22:04:46-05:00</lastmod>
+    <lastmod>2025-07-16T22:31:20-05:00</lastmod>
   </url><url>
     <loc>https://astaluk.com/post/</loc>
-    <lastmod>2025-07-16T22:04:46-05:00</lastmod>
+    <lastmod>2025-07-16T22:31:20-05:00</lastmod>
+  </url><url>
+    <loc>https://astaluk.com/tags/self-hosting/</loc>
+    <lastmod>2025-07-16T22:31:20-05:00</lastmod>
+  </url><url>
+    <loc>https://astaluk.com/tags/</loc>
+    <lastmod>2025-07-16T22:31:20-05:00</lastmod>
   </url><url>
     <loc>https://astaluk.com/post/20250716-testing-new-workflow/</loc>
     <lastmod>2025-07-16T22:04:46-05:00</lastmod>
@@ -18,12 +33,6 @@
     <lastmod>2025-07-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://astaluk.com/post/20250716-moving-to-github/</loc>
-    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://astaluk.com/tags/self-hosting/</loc>
-    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://astaluk.com/tags/</loc>
     <lastmod>2025-07-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://astaluk.com/post/20250103/</loc>

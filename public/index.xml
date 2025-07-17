@@ -6,8 +6,15 @@
     <description>Recent content on Paul Hartman</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Jul 2025 22:04:46 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 16 Jul 2025 22:31:20 -0500</lastBuildDate>
     <atom:link href="https://astaluk.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Workflow</title>
+      <link>https://astaluk.com/post/20250716-new-workflow/</link>
+      <pubDate>Wed, 16 Jul 2025 22:31:20 -0500</pubDate>
+      <guid>https://astaluk.com/post/20250716-new-workflow/</guid>
+      <description>&lt;p&gt;If this post actually gets posted it means that my new workflow actually works. Apparently people far smarter than I am have already figured out a better way of&#xA;hosting Hugo websites through github pages. If I am reading the &lt;a href=&#34;https://gohugo.io/host-and-deploy/host-on-github-pages/&#34;&gt;documentation&lt;/a&gt; correctly all I will&#xA;have to do is write my post, commit it to the Github Pages repository and then push those changes to Github. I won&amp;rsquo;t even need to run hugo build.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Testing New Workflow</title>
       <link>https://astaluk.com/post/20250716-testing-new-workflow/</link>

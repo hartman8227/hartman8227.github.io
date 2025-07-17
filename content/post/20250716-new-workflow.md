@@ -10,3 +10,6 @@ hosting Hugo websites through github pages. If I am reading the [documentation](
 have to do is write my post, commit it to the Github Pages repository and then push those changes to Github. I won't even need to run hugo build.
 
 Yep, this post is literally just exists for me to test that theory. Here goes nothing!
+
+
+Ok, so that seems to have been a failure. lets try doing a hugo build and see if that works.
