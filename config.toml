@@ -4,9 +4,7 @@ baseurl = "https://astaluk.com/"
 title = "Paul Hartman"
 languageCode = "en-us"
 paginate = "0" # Number of posts per page
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+
 
 #disqusShortname = "" # Enable comments by entering your Disqus shortname
 #googleAnalytics = "" # Enable Google Analytics by entering your tracking id
@@ -158,3 +156,6 @@ metaDataFormat= "yaml"
     endLevel = 3
     ordered = false
     startLevel = 2
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

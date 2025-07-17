@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>USB Lithium on Paul Hartman</title>
-    <link>https://astaluk.com/tags/usb-lithium/</link>
+    <link>http://localhost:1313/tags/usb-lithium/</link>
     <description>Recent content in USB Lithium on Paul Hartman</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://astaluk.com/tags/usb-lithium/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/usb-lithium/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2 Month Review of the Ryobi USB Lithium Compact Speaker (FVA51)</title>
-      <link>https://astaluk.com/post/20250103/</link>
+      <link>http://localhost:1313/post/20250103/</link>
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://astaluk.com/post/20250103/</guid>
+      <guid>http://localhost:1313/post/20250103/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been looking for a good Bluetooth speaker for a while now. My old one, a 1st gen Anker SoundCore that I bought in late in 2018 decided to quit working on me 2020 when the battery failed. I decided that I didn&amp;rsquo;t want another one that would only last me a year or two before it failed. The ones that have actually decent sound just cost too much for me to be able to justify that. That one requirement turned out to be a big problem as almost nobody makes a decent Bluetooth speaker with a replaceable battery. Except, the power tool makers.&lt;/p&gt;</description>
     </item>
   </channel>

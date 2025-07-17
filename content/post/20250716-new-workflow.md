@@ -1,6 +1,6 @@
 ---
-title: "New Workflow"
-date: 2025-07-16T22:31:20-05:00
+title: "New Workflow Test WTF"
+date: 2025-07-16T22:31:46-05:00
 draft: false
 Tags: ["Github Pages", "Self Hosting", "Git"]
 ---
@@ -15,3 +15,5 @@ Yep, this post is literally just exists for me to test that theory. Here goes no
 Ok, so that seems to have been a failure. lets try doing a hugo build and see if that works.
 
 Nope. I have no clue what's going on. Lets sleep on it and see if I can figure a solution.
+
+Figured it out. I goofed up my site configuration, and as a result new pages weren't building. Now I just need to move this branch to main. I think that may be a future me problem.

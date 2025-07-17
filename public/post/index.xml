@@ -2,66 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Paul Hartman</title>
-    <link>https://astaluk.com/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on Paul Hartman</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Jul 2025 22:31:20 -0500</lastBuildDate>
-    <atom:link href="https://astaluk.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Jul 2025 22:31:46 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>New Workflow</title>
-      <link>https://astaluk.com/post/20250716-new-workflow/</link>
-      <pubDate>Wed, 16 Jul 2025 22:31:20 -0500</pubDate>
-      <guid>https://astaluk.com/post/20250716-new-workflow/</guid>
+      <title>New Workflow Test WTF</title>
+      <link>http://localhost:1313/post/20250716-new-workflow/</link>
+      <pubDate>Wed, 16 Jul 2025 22:31:46 -0500</pubDate>
+      <guid>http://localhost:1313/post/20250716-new-workflow/</guid>
       <description>&lt;p&gt;If this post actually gets posted it means that my new workflow actually works. Apparently people far smarter than I am have already figured out a better way of&#xA;hosting Hugo websites through github pages. If I am reading the &lt;a href=&#34;https://gohugo.io/host-and-deploy/host-on-github-pages/&#34;&gt;documentation&lt;/a&gt; correctly all I will&#xA;have to do is write my post, commit it to the Github Pages repository and then push those changes to Github. I won&amp;rsquo;t even need to run hugo build.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Testing New Workflow</title>
-      <link>https://astaluk.com/post/20250716-testing-new-workflow/</link>
+      <link>http://localhost:1313/post/20250716-testing-new-workflow/</link>
       <pubDate>Wed, 16 Jul 2025 22:04:46 -0500</pubDate>
-      <guid>https://astaluk.com/post/20250716-testing-new-workflow/</guid>
+      <guid>http://localhost:1313/post/20250716-testing-new-workflow/</guid>
       <description>&lt;p&gt;So we are Testing a new workflow. I have no clue if theis will work.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Moving my Personal Website from a Self Hosted Caddy instance to Github Pages</title>
-      <link>https://astaluk.com/post/20250716-moving-to-github/</link>
+      <link>http://localhost:1313/post/20250716-moving-to-github/</link>
       <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://astaluk.com/post/20250716-moving-to-github/</guid>
+      <guid>http://localhost:1313/post/20250716-moving-to-github/</guid>
       <description>&lt;h2 id=&#34;why&#34;&gt;Why?&lt;/h2&gt;&#xA;&lt;p&gt;I have a perfectly good setup for hosting this largely ignored blog, so why in the name of all that&amp;rsquo;s holy would I want to change it.&lt;/p&gt;&#xA;&lt;p&gt;Pretty simple, I&amp;rsquo;m planning on moving soon which means that this site, along with all of my self hosted services are likely to be down for some time.&#xA;That may be fine for most things (Jellyfin, Nextcloud, Forgejo, etc), but this is my &amp;ldquo;Source of Truth&amp;rdquo; for how I want people to contact me. It kinda needs to stay up, and Github Pages seems to be the modern day version of a Geocity site.&#xA;It&amp;rsquo;s free hosting so it seems like as decent a choice as any.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Top 25 Albums and Songs of 2024</title>
+      <link>http://localhost:1313/post/20250105/</link>
+      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/20250105/</guid>
+      <description>&lt;h3 id=&#34;top-albums-of-2024&#34;&gt;Top Albums of 2024&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;BRAT - Charil xcx&lt;/li&gt;&#xA;&lt;li&gt;The Tortured Poets Department - Taylor Swift&lt;/li&gt;&#xA;&lt;li&gt;OK Computer - Radiohead&lt;/li&gt;&#xA;&lt;li&gt;HIT ME HARD AND SOFT - Billie Eilish&lt;/li&gt;&#xA;&lt;li&gt;Rise and Fall of a Midwest Princess - Chappel Roan&lt;/li&gt;&#xA;&lt;li&gt;Hybrid Theory - Linkin Park&lt;/li&gt;&#xA;&lt;li&gt;Meteora - Linkin Park&lt;/li&gt;&#xA;&lt;li&gt;eternal sunshine - Ariana Grande&lt;/li&gt;&#xA;&lt;li&gt;Nevermind - Nirvana&lt;/li&gt;&#xA;&lt;li&gt;GUTS - Olivia Rodrigo&lt;/li&gt;&#xA;&lt;li&gt;In Rainbows - Radiohead&lt;/li&gt;&#xA;&lt;li&gt;WHEN WE ALL FALL ASLEEP, WHERE DO WE GO - Billie Eilish&lt;/li&gt;&#xA;&lt;li&gt;Midnights - Taylor Swift&lt;/li&gt;&#xA;&lt;li&gt;Future Nostalgia - Dua Lipa&lt;/li&gt;&#xA;&lt;li&gt;The Bends - Radiohead&lt;/li&gt;&#xA;&lt;li&gt;The Wall - Pink Floyd&lt;/li&gt;&#xA;&lt;li&gt;The Dark Side of the Moon - Pink Floyd&lt;/li&gt;&#xA;&lt;li&gt;Discovery - Daft Punk&lt;/li&gt;&#xA;&lt;li&gt;Short n&amp;rsquo; Sweet - Sabrina Carpenter&lt;/li&gt;&#xA;&lt;li&gt;Lover - Taylor Swift&lt;/li&gt;&#xA;&lt;li&gt;The Black Parade - My Chemical Romance&lt;/li&gt;&#xA;&lt;li&gt;POST HUMAN: NeXGEn - Bring Me the Horizon&lt;/li&gt;&#xA;&lt;li&gt;1989 (Taylor&amp;rsquo;s version) - Taylor Swift&lt;/li&gt;&#xA;&lt;li&gt;UNDERTALE Soundtrack - Toby Fox&lt;/li&gt;&#xA;&lt;li&gt;Rumours - Fleetwood Mac&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;top-tracks-of-2024&#34;&gt;Top Tracks of 2024&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Espresso - Sabrina Carpenter&lt;/li&gt;&#xA;&lt;li&gt;360 - Charli xcx&lt;/li&gt;&#xA;&lt;li&gt;Von dutch - Charli xcx&lt;/li&gt;&#xA;&lt;li&gt;?????? - Charli xcx&lt;/li&gt;&#xA;&lt;li&gt;Not Like Us - Kendrick Lamar&lt;/li&gt;&#xA;&lt;li&gt;BIRDS OF A FEATHER - Billie Eilish&lt;/li&gt;&#xA;&lt;li&gt;Good Luck, Babe!&lt;/li&gt;&#xA;&lt;li&gt;In the End - Linkin Park&lt;/li&gt;&#xA;&lt;li&gt;365 - Charli xcx&lt;/li&gt;&#xA;&lt;li&gt;Sympathy is a knife - Charli xcx&lt;/li&gt;&#xA;&lt;li&gt;yes, and? - Ariana Grande&lt;/li&gt;&#xA;&lt;li&gt;Numb - Linkin Park&lt;/li&gt;&#xA;&lt;li&gt;Club classics - Charli xcx&lt;/li&gt;&#xA;&lt;li&gt;Apple - Charli xcx&lt;/li&gt;&#xA;&lt;li&gt;Talk talk - Charli xcx&lt;/li&gt;&#xA;&lt;li&gt;Chop Suey! - System of a Down&lt;/li&gt;&#xA;&lt;li&gt;LUNCH - Billie Eilish&lt;/li&gt;&#xA;&lt;li&gt;Everything is romantic - Charli xcx&lt;/li&gt;&#xA;&lt;li&gt;Blinding Lights - The Weeknd&lt;/li&gt;&#xA;&lt;li&gt;No Suprises - Radiohead&lt;/li&gt;&#xA;&lt;li&gt;Creep - Radiohead&lt;/li&gt;&#xA;&lt;li&gt;Mr. Brightside - The Killers&lt;/li&gt;&#xA;&lt;li&gt;Supernova - aespa&lt;/li&gt;&#xA;&lt;li&gt;Feel Good Inc - Gorillaz&lt;/li&gt;&#xA;&lt;li&gt;Magnetic - ILLIT&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>2 Month Review of the Ryobi USB Lithium Compact Speaker (FVA51)</title>
-      <link>https://astaluk.com/post/20250103/</link>
+      <link>http://localhost:1313/post/20250103/</link>
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://astaluk.com/post/20250103/</guid>
+      <guid>http://localhost:1313/post/20250103/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been looking for a good Bluetooth speaker for a while now. My old one, a 1st gen Anker SoundCore that I bought in late in 2018 decided to quit working on me 2020 when the battery failed. I decided that I didn&amp;rsquo;t want another one that would only last me a year or two before it failed. The ones that have actually decent sound just cost too much for me to be able to justify that. That one requirement turned out to be a big problem as almost nobody makes a decent Bluetooth speaker with a replaceable battery. Except, the power tool makers.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Running Ollama on NixOS as a backend for for Nextcloud Assistant</title>
-      <link>https://astaluk.com/post/241111/</link>
+      <title>A Better Search Engine?</title>
+      <link>http://localhost:1313/post/241118_working/</link>
       <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://astaluk.com/post/241111/</guid>
+      <guid>http://localhost:1313/post/241118_working/</guid>
+      <description>&lt;p&gt;For the month of October 2024, the &lt;a href=&#34;https://selfthosted.show&#34;&gt;Self Hosted&lt;/a&gt; gang have been trying to go the month without using Google&amp;rsquo;s search engine. I&amp;rsquo;ve been busy with other things and hadn&amp;rsquo;t taken part, but in their &lt;a href=&#34;https://selfhosted.show/136&#34;&gt;most recent&lt;/a&gt; show, Alex and Chris were talking very highly of two self hosted services they had been making use of during the month.&lt;/p&gt;&#xA;&lt;p&gt;The first one, &lt;a href=&#34;https://github.com/searxng/searxng&#34;&gt;SearXNG&lt;/a&gt; is a self hosted meta search engine. In stupid speech (in other words something &lt;em&gt;&lt;strong&gt;I&lt;/strong&gt;&lt;/em&gt; can understand), it takes you search query and farms it out to multiple other search engines. It then does &amp;ldquo;something&amp;rdquo; and presents what is more likely (hopefully) what you were actually looking for.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Running Ollama on NixOS as a backend for for Nextcloud Assistant</title>
+      <link>http://localhost:1313/post/241111/</link>
+      <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/241111/</guid>
       <description>&lt;p&gt;So Nextcloud got the ability awhile back to make use of LLMs for various things, like speech to text, text summerization and image generation. Sounded like a handy addon, and it turns out I had the hardware needed to self host it, kinda. Turns out there are some limitations, but we&amp;rsquo;ll get to that.&lt;/p&gt;&#xA;&lt;p&gt;First thing I needed to do was figure out how to run the LLM and a quick search turned up a couple of different options. The most obvious one for me to try was Ollama as it is in the Nix repos. Installing it was pretty simple, just add the following to the configuration.nix.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Changing a Tail, Reverse or Rear Turn Signal Bulb on a 2016 Nissan Altima</title>
-      <link>https://astaluk.com/post/241110/</link>
+      <link>http://localhost:1313/post/241110/</link>
       <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://astaluk.com/post/241110/</guid>
+      <guid>http://localhost:1313/post/241110/</guid>
       <description>&lt;p&gt;So I had a taillight bulb go out on me this week, and changing that bulb was simple enough, but also not particularly obvious. Had to look it up&#xA;and could only find a overly long winded youtube video on it. In the interest of saving some one else the headache of scrubbing through a 20 min&#xA;video to get answer that could have been explained in 2 minute short, I figured I would write it out.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Better Dehumidifier Control</title>
-      <link>https://astaluk.com/post/20241028/</link>
+      <link>http://localhost:1313/post/20241028/</link>
       <pubDate>Mon, 28 Oct 2024 06:32:01 -0500</pubDate>
-      <guid>https://astaluk.com/post/20241028/</guid>
+      <guid>http://localhost:1313/post/20241028/</guid>
       <description>&lt;p&gt;Because I live in the American South and because we recently had our water&#xA;plumbing explode, the humidity in our house tends to be sky high. Like 60%&#xA;or higher high. To counter this I picked up a large dehumidifier from&#xA;Amazon which has largely worked well controlling the humidity until&#xA;recently.&lt;/p&gt;&#xA;&lt;p&gt;Recently though I noticed that the humidifier kept turning off and on.&#xA;Dehumidifier was set to 35 but the household thermostat was reading 55%&#xA;humidity. As a check, I set the dehumidifier to run continuously. It&#xA;stayed running and the humidity in the house started dropping and is&#xA;down to the 30’s in the room where the device is located and down to&#xA;46 at the thermostat. My conclusion was that the humidity sensor on the&#xA;device had failed.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Boiler Plate Title</title>
+      <link>http://localhost:1313/post/boilerplate/</link>
+      <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/boilerplate/</guid>
+      <description>&lt;p&gt;What to you want to say today? Type in Markdown.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Status: FUBAR</title>
+      <link>http://localhost:1313/post/230529.1/</link>
+      <pubDate>Mon, 29 May 2023 05:26:51 -0500</pubDate>
+      <guid>http://localhost:1313/post/230529.1/</guid>
+      <description>&lt;p&gt;Well, the website is up. Mastodon is linked. Matrix&amp;hellip; Not so much. If anyone is interested I can be found here: &lt;a href=&#34;matrix://@paul:astaluk.icu&#34;&gt;matrix://@paul:astaluk.icu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;On second thought, I figured it out.&lt;/p&gt;&#xA;&lt;p&gt;It turns out that the Matrix Foundation runs a url shortener (sort of) service that allows web browsers to understand matrix addresses. Nice.&lt;/p&gt;&#xA;&lt;p&gt;Their page is located at &lt;a href=&#34;https://matrix.to&#34;&gt;https://matrix.to&lt;/a&gt; and once there all you have to do is enter you user or room id and they will give you a link.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Here we go again...</title>
-      <link>https://astaluk.com/post/230529/</link>
+      <link>http://localhost:1313/post/230529/</link>
       <pubDate>Mon, 29 May 2023 03:38:14 -0500</pubDate>
-      <guid>https://astaluk.com/post/230529/</guid>
+      <guid>http://localhost:1313/post/230529/</guid>
       <description>&lt;p&gt;Well, Here I am. Once again. Building a new website for myself that I will surely abandon within a week. At least this one is a static site built on Hugo so perhaps this one will survive system updates.&lt;/p&gt;</description>
     </item>
   </channel>
