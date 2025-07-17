@@ -17,3 +17,15 @@ Ok, so that seems to have been a failure. lets try doing a hugo build and see if
 Nope. I have no clue what's going on. Lets sleep on it and see if I can figure a solution.
 
 Figured it out. I goofed up my site configuration, and as a result new pages weren't building. Now I just need to move this branch to main. I think that may be a future me problem.
+
+So, how does this work?
+
+- First, we are now working out of the Github Pages repository. Not my personal git server repository.
+- We do out pull request to avoid creating problems
+- Then we create our new post same as usual.
+- Once the post is finished and saved, we do a `git commit -am "I am a fancy message"` followed by a `git push`
+
+That's it. Setting this up was just a matter of following the instructions in the documentation I linked earlier. All I did was change the branch as I wasn't quite sure it would work.
+
+Once I do the `git push` Github apparently spins up a VM for the sole purpose of running `hugo build`. It then starts serving the newly built website.
+Pretty slick but it does seem like MS is wasting a lot of compute resources to do that.
