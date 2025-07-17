@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="Because I live in the American South and because we recently had our water plumbing explode, the humidity in our house tends to be sky high. Like 60% or higher high. To counter this I picked up a large dehumidifier from Amazon which has largely worked well controlling the humidity until recently.
+Recently though I noticed that the humidifier kept turning off and on. Dehumidifier was set to 35 but the household thermostat was reading 55% humidity. As a check, I set the dehumidifier to run continuously. It stayed running and the humidity in the house started dropping and is down to the 30’s in the room where the device is located and down to 46 at the thermostat. My conclusion was that the humidity sensor on the device had failed.
+" />
+<meta name="keywords" content=", Home Assistant, Self Hosting, Weather, Projects" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="http://localhost:1313/post/20241028/" />
+
+
+    <title>
+        
+            Better Dehumidifier Control :: Paul Hartman 
+        
+    </title>
+
+
+
+
+
+  <link rel="stylesheet" href="/main.min.244183cde1a38e0b08f82c11791181288f9aac1cc9618cd6f4e9e7710c5768ba.css" integrity="sha256-JEGDzeGjjgsI&#43;CwReRGBKI&#43;arBzJYYzW9OnncQxXaLo=" crossorigin="anonymous">
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+
+  <meta itemprop="name" content="Better Dehumidifier Control">
+  <meta itemprop="description" content="Because I live in the American South and because we recently had our water plumbing explode, the humidity in our house tends to be sky high. Like 60% or higher high. To counter this I picked up a large dehumidifier from Amazon which has largely worked well controlling the humidity until recently.
+Recently though I noticed that the humidifier kept turning off and on. Dehumidifier was set to 35 but the household thermostat was reading 55% humidity. As a check, I set the dehumidifier to run continuously. It stayed running and the humidity in the house started dropping and is down to the 30’s in the room where the device is located and down to 46 at the thermostat. My conclusion was that the humidity sensor on the device had failed.">
+  <meta itemprop="datePublished" content="2024-10-28T06:32:01-05:00">
+  <meta itemprop="dateModified" content="2024-10-28T06:32:01-05:00">
+  <meta itemprop="wordCount" content="282">
+  <meta itemprop="keywords" content="Home Assistant,Self Hosting,Weather,Projects">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Better Dehumidifier Control">
+  <meta name="twitter:description" content="Because I live in the American South and because we recently had our water plumbing explode, the humidity in our house tends to be sky high. Like 60% or higher high. To counter this I picked up a large dehumidifier from Amazon which has largely worked well controlling the humidity until recently.
+Recently though I noticed that the humidifier kept turning off and on. Dehumidifier was set to 35 but the household thermostat was reading 55% humidity. As a check, I set the dehumidifier to run continuously. It stayed running and the humidity in the house started dropping and is down to the 30’s in the room where the device is located and down to 46 at the thermostat. My conclusion was that the humidity sensor on the device had failed.">
+
+
+
+    <meta property="og:url" content="http://localhost:1313/post/20241028/">
+  <meta property="og:site_name" content="Paul Hartman">
+  <meta property="og:title" content="Better Dehumidifier Control">
+  <meta property="og:description" content="Because I live in the American South and because we recently had our water plumbing explode, the humidity in our house tends to be sky high. Like 60% or higher high. To counter this I picked up a large dehumidifier from Amazon which has largely worked well controlling the humidity until recently.
+Recently though I noticed that the humidifier kept turning off and on. Dehumidifier was set to 35 but the household thermostat was reading 55% humidity. As a check, I set the dehumidifier to run continuously. It stayed running and the humidity in the house started dropping and is down to the 30’s in the room where the device is located and down to 46 at the thermostat. My conclusion was that the humidity sensor on the device had failed.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2024-10-28T06:32:01-05:00">
+    <meta property="article:modified_time" content="2024-10-28T06:32:01-05:00">
+    <meta property="article:tag" content="Home Assistant">
+    <meta property="article:tag" content="Self Hosting">
+    <meta property="article:tag" content="Weather">
+    <meta property="article:tag" content="Projects">
+
+
+
+
+
+
+    <meta property="article:published_time" content="2024-10-28 06:32:01 -0500 CDT" />
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text ">
+                hello</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/post/">Blog</a></li><li><a href="/tags/">Tags</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="http://localhost:1313/post/20241028/">Better Dehumidifier Control</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p>Because I live in the American South and because we recently had our water
+plumbing explode, the humidity in our house tends to be sky high. Like 60%
+or higher high. To counter this I picked up a large dehumidifier from
+Amazon which has largely worked well controlling the humidity until
+recently.</p>
+<p>Recently though I noticed that the humidifier kept turning off and on.
+Dehumidifier was set to 35 but the household thermostat was reading 55%
+humidity. As a check, I set the dehumidifier to run continuously. It
+stayed running and the humidity in the house started dropping and is
+down to the 30’s in the room where the device is located and down to
+46 at the thermostat. My conclusion was that the humidity sensor on the
+device had failed.</p>
+<p>I could go the hard route. Take apart the dehumidifier, try to find the
+problem and do a board level repair. Go the expensive route and replace
+a generally functioning dehumidifier. Or I could take cheap, simple, and
+admitedly jerry-rigged option. Home Assistant.</p>
+<p>My first idea was to use Node-Red to kitbash a hygrostat together with
+some basic safeties, but as I was putting the devices and sensors into
+helpers I found that Home Assistant has a new (to me anyways) helper
+called a Generic Hygostat that can connect a humidity sensor like
+<a href="https://www.amazon.com/dp/B0D2NVJTS3">this one</a> by Third Reality to a
+smart outlet or plug and control that outlet based on a humidity level
+you set. It can be set to control either a humidifier or dehumidifier.
+Once you&rsquo;ve created the helper you can add the helper to your dashboard
+and it gives you thermostat like control over your de/humidifier. Pretty
+slick.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="http://localhost:1313/tags/home-assistant/">Home Assistant</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/self-hosting/">Self Hosting</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/weather/">Weather</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/projects/">Projects</a></span>
+        
+    </p>
+
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.e89fda0f29b95d33f6f4224dd9e5cf69d84aff3818be2b0d73e731689cc374261b016d17d46f8381962fb4a1577ba3017b1f23509d894f6e66431f988c00889e.js" integrity="sha512-6J/aDym5XTP29CJN2eXPadhK/zgYvisNc&#43;cxaJzDdCYbAW0X1G&#43;DgZYvtKFXe6MBex8jUJ2JT25mQx&#43;YjACIng=="></script>
+
+
+
+
+    </body>
+</html>

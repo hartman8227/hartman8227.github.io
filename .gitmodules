@@ -1,0 +1,9 @@
+[submodule "gruvhugo"]
+	path = gruvhugo
+	url = https://gitlab.com/avron/gruvhugo.git
+[submodule "themes/gruvhugo"]
+	path = themes/gruvhugo
+	url = https://gitlab.com/avron/gruvhugo.git
+[submodule "themes/hello-friend-ng"]
+	path = themes/hello-friend-ng
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git

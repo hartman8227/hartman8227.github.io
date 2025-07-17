@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Self Hosting on Paul Hartman</title>
+    <link>http://localhost:1313/tags/self-hosting/</link>
+    <description>Recent content in Self Hosting on Paul Hartman</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/self-hosting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moving my Personal Website from a Self Hosted Caddy instance to Github Pages</title>
+      <link>http://localhost:1313/post/20250716-moving-to-github/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/20250716-moving-to-github/</guid>
+      <description>&lt;h2 id=&#34;why&#34;&gt;Why?&lt;/h2&gt;&#xA;&lt;p&gt;I have a perfectly good setup for hosting this largely ignored blog, so why in the name of all that&amp;rsquo;s holy would I want to change it.&lt;/p&gt;&#xA;&lt;p&gt;Pretty simple, I&amp;rsquo;m planning on moving soon which means that this site, along with all of my self hosted services are likely to be down for some time.&#xA;That may be fine for most things (Jellyfin, Nextcloud, Forgejo, etc), but this is my &amp;ldquo;Source of Truth&amp;rdquo; for how I want people to contact me. It kinda needs to stay up, and Github Pages seems to be the modern day version of a Geocity site.&#xA;It&amp;rsquo;s free hosting so it seems like as decent a choice as any.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Better Dehumidifier Control</title>
+      <link>http://localhost:1313/post/20241028/</link>
+      <pubDate>Mon, 28 Oct 2024 06:32:01 -0500</pubDate>
+      <guid>http://localhost:1313/post/20241028/</guid>
+      <description>&lt;p&gt;Because I live in the American South and because we recently had our water&#xA;plumbing explode, the humidity in our house tends to be sky high. Like 60%&#xA;or higher high. To counter this I picked up a large dehumidifier from&#xA;Amazon which has largely worked well controlling the humidity until&#xA;recently.&lt;/p&gt;&#xA;&lt;p&gt;Recently though I noticed that the humidifier kept turning off and on.&#xA;Dehumidifier was set to 35 but the household thermostat was reading 55%&#xA;humidity. As a check, I set the dehumidifier to run continuously. It&#xA;stayed running and the humidity in the house started dropping and is&#xA;down to the 30’s in the room where the device is located and down to&#xA;46 at the thermostat. My conclusion was that the humidity sensor on the&#xA;device had failed.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
