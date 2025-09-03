@@ -6,8 +6,57 @@
     <description>Recent content in Tags on Paul Hartman</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Jul 2025 22:31:46 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BIFL</title>
+      <link>http://localhost:1313/tags/bifl/</link>
+      <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bifl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cleaning</title>
+      <link>http://localhost:1313/tags/cleaning/</link>
+      <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cleaning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ryobi</title>
+      <link>http://localhost:1313/tags/ryobi/</link>
+      <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ryobi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag 4</title>
+      <link>http://localhost:1313/tags/tag-4/</link>
+      <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tag-4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Buy It for LIfe</title>
+      <link>http://localhost:1313/tags/buy-it-for-life/</link>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/buy-it-for-life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PPE</title>
+      <link>http://localhost:1313/tags/ppe/</link>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ppe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reviews</title>
+      <link>http://localhost:1313/tags/reviews/</link>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/reviews/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Git</title>
       <link>http://localhost:1313/tags/git/</link>
@@ -65,24 +114,10 @@
       <description></description>
     </item>
     <item>
-      <title>Tag 4</title>
-      <link>http://localhost:1313/tags/tag-4/</link>
-      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tag-4/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Review</title>
       <link>http://localhost:1313/tags/review/</link>
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/review/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ryobi</title>
-      <link>http://localhost:1313/tags/ryobi/</link>
-      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ryobi/</guid>
       <description></description>
     </item>
     <item>

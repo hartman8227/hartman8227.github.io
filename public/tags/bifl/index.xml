@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ryobi on Paul Hartman</title>
-    <link>http://localhost:1313/tags/ryobi/</link>
-    <description>Recent content in Ryobi on Paul Hartman</description>
+    <title>BIFL on Paul Hartman</title>
+    <link>http://localhost:1313/tags/bifl/</link>
+    <description>Recent content in BIFL on Paul Hartman</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ryobi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/bifl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Review of the ONE&#43; HP 18V Cordless Advanced WHISPER Series Stick Vacuum (PBLSV719K and PBLSV719B)</title>
       <link>http://localhost:1313/post/pblsv719-review/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/pblsv719-review/</guid>
       <description>&lt;h2 id=&#34;dear-god-ryobi-is-bad-at-naming-shit&#34;&gt;Dear god Ryobi is bad at naming shit.&lt;/h2&gt;&#xA;&lt;p&gt;Ok, so we needed a new vacuum so you get a vacuum review. That does seem to be how this site is working for now, as the only time I ever seem to post something is to post a review.&lt;/p&gt;&#xA;&lt;p&gt;So, what did I get? Well, I got the &lt;a href=&#34;https://www.homedepot.com/p/RYOBI-ONE-HP-18V-Cordless-Advanced-WHISPER-Series-Stick-Vacuum-Kit-with-4-0-Ah-Battery-and-Charger-PBLSV719K/327657350&#34;&gt;Ryobi PBLSV719K&lt;/a&gt;, otherwise known as the gobbledygook I copypasta&amp;rsquo;d into the title. It&amp;rsquo;s a stick vacuum. And not a bad one at that. As you can probably guess, it uses the ubuiquitus Ryobi 18v batteries.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>2 Month Review of the Ryobi USB Lithium Compact Speaker (FVA51)</title>
-      <link>http://localhost:1313/post/20250103/</link>
-      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/20250103/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been looking for a good Bluetooth speaker for a while now. My old one, a 1st gen Anker SoundCore that I bought in late in 2018 decided to quit working on me 2020 when the battery failed. I decided that I didn&amp;rsquo;t want another one that would only last me a year or two before it failed. The ones that have actually decent sound just cost too much for me to be able to justify that. That one requirement turned out to be a big problem as almost nobody makes a decent Bluetooth speaker with a replaceable battery. Except, the power tool makers.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

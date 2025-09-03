@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github Pages on Paul Hartman</title>
+    <link>http://localhost:1313/tags/github-pages/</link>
+    <description>Recent content in Github Pages on Paul Hartman</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Jul 2025 22:31:46 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Workflow Test WTF</title>
+      <link>http://localhost:1313/post/20250716-new-workflow/</link>
+      <pubDate>Wed, 16 Jul 2025 22:31:46 -0500</pubDate>
+      <guid>http://localhost:1313/post/20250716-new-workflow/</guid>
+      <description>&lt;p&gt;If this post actually gets posted it means that my new workflow actually works. Apparently people far smarter than I am have already figured out a better way of&#xA;hosting Hugo websites through github pages. If I am reading the &lt;a href=&#34;https://gohugo.io/host-and-deploy/host-on-github-pages/&#34;&gt;documentation&lt;/a&gt; correctly all I will&#xA;have to do is write my post, commit it to the Github Pages repository and then push those changes to Github. I won&amp;rsquo;t even need to run hugo build.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
