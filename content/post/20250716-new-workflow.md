@@ -23,7 +23,11 @@ So, how does this work?
 - First, we are now working out of the Github Pages repository. Not my personal git server repository.
 - We do out pull request to avoid creating problems
 - Then we create our new post same as usual.
-- Once the post is finished and saved, we do a `git commit -am "I am a fancy message"` followed by a `git push`
+- Once the post is finished and saved, we do:  
+ 1. `git add *`  
+ 2. `git commit -am "I am a fancy message"`  
+ and finally  
+ 3. `git push`
 
 That's it. Setting this up was just a matter of following the instructions in the documentation I linked earlier. All I did was change the branch as I wasn't quite sure it would work.
 
